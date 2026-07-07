@@ -1,4 +1,4 @@
-# 🛡️ **Backup_Borg** — Borg + Docker + SMS (Free Mobile)
+# 🛡️ **Backup_Borg** - Borg + Docker + SMS (Free Mobile)
 
 [![Bash - v5+](https://img.shields.io/badge/Bash-5%2B-informational?style=for-the-badge)](https://www.gnu.org/software/bash/) [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE) 
 [![Last Commit](https://img.shields.io/github/last-commit/Axolotty/backup_borg.svg?style=for-the-badge)](https://github.com/Axolotty/backup_borg/commits/main) 
@@ -97,17 +97,17 @@ Exécution chaque nuit à 03h00 :
 - Tester régulièrement la restauration
 
 ### FAQ
-**Q — Pourquoi Borg ?**  
-A — Déduplication, compression et sécurité intégrée pour vos backups.  
+**Q - Pourquoi Borg ?**  
+A - Déduplication, compression et sécurité intégrée pour vos backups.  
 
-**Q — Les SMS ne fonctionnent pas ?**  
-A — Tester l’API Free Mobile manuellement :  
+**Q - Les SMS ne fonctionnent pas ?**  
+A - Tester l’API Free Mobile manuellement :  
 ```bash
 curl -G --data-urlencode "msg=hello" "https://smsapi.free-mobile.fr/sendmsg?user=USER&pass=CODE"
 ```
 
-**Q — Les exports Docker sont volumineux ?**  
-A — Oui. Préférer `docker save` ou un registre externe si nécessaire.
+**Q - Les exports Docker sont volumineux ?**  
+A - Oui. Préférer `docker save` ou un registre externe si nécessaire.
 
 ### Contribuer
 - Ajouter un service systemd + timer pour planification propre  
@@ -210,17 +210,17 @@ Nightly at 03:00:
 - Test restores regularly
 
 ### FAQ
-**Q — Why Borg?**  
-A — Deduplication, compression and built-in encryption for backups.  
+**Q - Why Borg?**  
+A - Deduplication, compression and built-in encryption for backups.  
 
-**Q — SMS not received?**  
-A — Test Free Mobile API manually:  
+**Q - SMS not received?**  
+A - Test Free Mobile API manually:  
 ```bash
 curl -G --data-urlencode "msg=hello" "https://smsapi.free-mobile.fr/sendmsg?user=USER&pass=CODE"
 ```
 
-**Q — Docker exports are large?**  
-A — Consider `docker save` or external registry; export containers only if necessary.
+**Q - Docker exports are large?**  
+A - Consider `docker save` or external registry; export containers only if necessary.
 
 ### Contributing
 - Add systemd service + timer for clean scheduling  
